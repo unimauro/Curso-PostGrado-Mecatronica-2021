@@ -1,0 +1,15 @@
+Username:   efloresq
+Password VPN :   EgbDL325FR
+
+19140306587022
+
+
+19198056996068
+
+Mis
+
+- Integración de Bolsa con el Portal web
+	Ahora son dos
+	- bolsa de trabajo
+	- La primera vez que se accede a la bolsa de trabajo se registra y se envia 4 datos DNI, nombres, fecha de nacimiento y información de servicios del pull, experiencia profesional y educación
+	

@@ -1,0 +1,61 @@
+from CARLOS MAURO CARDENAS FERNANDEZ to everyone:    7:55 PM
+https://www.python.org/
+from CARLOS MAURO CARDENAS FERNANDEZ to everyone:    7:56 PM
+https://www.sqlite.org/download.html
+from CARLOS MAURO CARDENAS FERNANDEZ to everyone:    7:58 PM
+https://dev.mysql.com/downloads/installer/
+from CARLOS MAURO CARDENAS FERNANDEZ to everyone:    7:59 PM
+https://summerofcode.withgoogle.com/
+from CARLOS MAURO CARDENAS FERNANDEZ to everyone:    8:00 PM
+https://summerofcode.withgoogle.com/how-it-works/#timeline
+from CARLOS MAURO CARDENAS FERNANDEZ to everyone:    8:07 PM
+https://summerofcode.withgoogle.com/archive/2020/projects/5225514815455232/
+from CARLOS MAURO CARDENAS FERNANDEZ to everyone:    8:11 PM
+https://www.python.org/
+from CARLOS MAURO CARDENAS FERNANDEZ to everyone:    8:11 PM
+https://www.sqlite.org/download.html
+from CARLOS MAURO CARDENAS FERNANDEZ to everyone:    8:11 PM
+https://dev.mysql.com/downloads/installer/
+from CARLOS MAURO CARDENAS FERNANDEZ to everyone:    8:15 PM
+https://summerofcode.withgoogle.com/archive/2019/projects/5344591031566336/
+from CARLOS MAURO CARDENAS FERNANDEZ to everyone:    8:22 PM
+https://summerofcode.withgoogle.com/archive/2020/projects/5586314080026624/
+from CARLOS MAURO CARDENAS FERNANDEZ to everyone:    8:25 PM
+https://www.postgresql.org/download/
+from CARLOS MAURO CARDENAS FERNANDEZ to everyone:    8:29 PM
+https://summerofcode.withgoogle.com/archive/2019/projects/4883641988022272/
+from CARLOS MAURO CARDENAS FERNANDEZ to everyone:    8:47 PM
+https://posgrado.utec.edu.pe/becas-diplomatura-en-big-data-y-machine-learning-contra-covid-19/
+from CARLOS MAURO CARDENAS FERNANDEZ to everyone:    8:49 PM
+python --version
+from Cesar Paz (privately):    10:05 PM
+import sqlite3
+from sqlite3 import Error
+def sql_connection():
+    
+    try:
+        con = sqlite3.connect ('Empresa.db')
+        return con    
+        
+    except Error:
+        
+       print(Error)
+def sql_tabla(con):
+    cursorObj = con.cursor()
+    
+    ## id integer
+    ## nombre text
+    ## dni integer
+    ## salario real
+    ## ingreso text
+cursorObj.execute("CREATE TABLE empleados (id integer PRIMARY KEY, nombre text, dni integer, salario real, ingreso text)")
+con.commit()
+con = sql_connection()
+sql_tabla(con)
+con.close()
+from CARLOS MAURO CARDENAS FERNANDEZ to everyone:    10:18 PM
+https://sqlitebrowser.org/dl/
+from CARLOS MAURO CARDENAS FERNANDEZ to everyone:    10:25 PM
+https://www.youtube.com/watch?v=S6IP_6HG2QE&feature=emb_title
+from CARLOS MAURO CARDENAS FERNANDEZ to everyone:    10:25 PM
+https://developers.google.com/open-source/gsoc/resources/manual
