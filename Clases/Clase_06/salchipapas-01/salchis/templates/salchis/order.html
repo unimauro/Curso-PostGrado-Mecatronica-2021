@@ -1,1 +1,8 @@
 <h1>Perú Salchipapas ORDENES</h1>
+
+<h2>{{note}}</h2>
+    <form action="{% url 'order' %}" method="post">
+        {% csrf_token %}
+        {{salchisform}}
+        <input type="submit" value="Ordenar">
+    </form>

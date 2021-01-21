@@ -1,0 +1,50 @@
+https://code.visualstudio.com/
+https://atom.io/
+Python 3.x
+pip
+Django Project
+HTML
+SQLITE
+-------------------
+-------------------
+$cd Clase006
+
+$pip install virtualenv
+
+$python.exe -m pip install --upgrade pip
+
+$python -m venv enviroment
+
+$call enviroment\Scripts\activate.bat
+
+$pip install django
+
+$django-admin startproject salchipapas
+
+$python manage.py runserver
+
+http://127.0.0.1:8000/
+
+$django-admin startapp salchis
+
+Descargar
+https://code.visualstudio.com/
+
+
+$python manage.py runserver
+
+________________________
+$python manage.py runserver
+
+____________________________
+<label for="tipo1">Tipo 1: </label>
+        <input id="tipo1" type="text" name="tipo1">
+        <label for="tipo2">Tipo 2: </label>
+        <input id="tipo2" type="text" name="tipo2">
+        <label for="salsas">salsas: </label>
+        <select id="salsa"  name="salsas">
+            <option value="todo">Todo</option>
+            <option value="SinKepchut">Sin KepChut</option>
+            <option value="nada">Nada</option> 
+        </select>
+____________________________
