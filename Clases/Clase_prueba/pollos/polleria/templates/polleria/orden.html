@@ -1,0 +1,9 @@
+<h1>COMPLETE SU ORDEN</h1>
+
+<h2>{{ note }}</h2>
+
+<form action="{% url 'orden' %}" method="post">
+    {% csrf_token %}
+    {{ polleriaform }}
+        <input type="submit" value="Enviar Orden">
+</form>
